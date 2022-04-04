@@ -1,11 +1,23 @@
 input: .
 output: .retype
 url: docs.spacefalcon.io
+# -----------------------------------------------------------------------------
+
 branding:
-  title: Spacefalcon Docs
-  label: Spaceafalcon
-links:
-- text: Getting Started
-  link: https://retype.com/guides/getting-started/
+  logo: static/logo-with-text.svg          # Path to a logo file.
+  # logoDark: static/logo-dark.png # Path to a logo file to use in dark mode.
+  logoAlign: right               # Align the logo to the right or the left.
+  label: Docs # Optional label. To remove the label, remove this config.
+
+# -----------------------------------------------------------------------------
+
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
+
+# -----------------------------------------------------------------------------
+
+templating:
+  enabled: true # Enable or disable the Retype content templating engine.
+  liquid: false # Is Liquid syntax {% ... %} enabled?
+                # If true, Retype is incompatible with
+                # GitBook style of component configuration.
