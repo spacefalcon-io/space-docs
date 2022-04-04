@@ -1,9 +1,9 @@
 input: .
 output: .retype
-url: # Add your website address here
+url: docs.spacefalcon.io
 branding:
-  title: Project Name
-  label: Docs
+  title: Spacefalcon Docs
+  label: Spaceafalcon
 links:
 - text: Getting Started
   link: https://retype.com/guides/getting-started/
